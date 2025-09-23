@@ -6,17 +6,6 @@ import { zodResolver } from '@hookform/resolvers/zod';
 import { z } from 'zod';
 import { Phone, Mail, MapPin, Clock, Send, MessageCircle } from 'lucide-react';
 import Button from '@/components/ui/Button';
-import type { Metadata } from 'next';
-
-export const metadata: Metadata = {
-  title: "お問い合わせ | ヴィラ・ハートフル淡路明神",
-  description: "ヴィラ・ハートフル淡路明神へのお問い合わせページ。電話、1メール、LINEでお気軽にご連絡いただけます。ペット同伴、予約、料金などのご質問に24時間以内にご返答。",
-  keywords: "淡路島 ペット可 問い合わせ, ヴィラ 問い合わせ, ペット同伴 相談, 予約問い合わせ",
-  openGraph: {
-    title: "お問い合わせ | ヴィラ・ハートフル淡路明神",
-    description: "ペット同伴、予約、料金などのご質問に24時間以内にご返答",
-  },
-};
 
 const contactSchema = z.object({
   name: z.string().min(1, 'お名前を入力してください'),

@@ -2,17 +2,17 @@ export default function StructuredData() {
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "LodgingBusiness",
-    "name": "ヴィラ・ハートフル淡路明神",
+    "name": "Awaji Pet & Sauna Resort",
     "description": "愛犬と過ごす特別なリゾート体験。1日1組限定のペット特化型プライベートヴィラで、バレルサウナと200坪の天然芝をお楽しみください。",
     "url": "https://villa-heartful-awaji.com",
     "telephone": "+81-80-1234-5678",
     "email": "info@villa-heartful.com",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "明神字西濱645",
+      "streetAddress": "明神",
       "addressLocality": "淡路市",
       "addressRegion": "兵庫県",
-      "postalCode": "656-1501",
+      "postalCode": "656-1557",
       "addressCountry": "JP"
     },
     "geo": {

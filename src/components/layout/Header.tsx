@@ -25,9 +25,9 @@ export default function Header() {
             <Heart className="h-8 w-8 text-blue-500" />
             <div className="flex flex-col">
               <span className="text-lg font-bold text-gray-800">
-                ヴィラ・ハートフル
+                Awaji Pet & Sauna Resort
               </span>
-              <span className="text-sm text-gray-600">淡路明神</span>
+              <span className="text-sm text-gray-600">淡路島</span>
             </div>
           </Link>
 

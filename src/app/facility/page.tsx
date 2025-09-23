@@ -43,11 +43,11 @@ export default function FacilityPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-3xl font-bold text-gray-900 mb-6">
-                ヴィラ・ハートフル淡路明神
+                Awaji Pet & Sauna Resort
               </h2>
               <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                兵庫県淡路市明神字西濱645に位置する、1日1組限定のペット特化型プライベートヴィラです。
-                海辺の絶好のロケーションで、愛犬と一緒に特別なリゾート体験をお楽しみいただけます。
+                兵庫県淡路市明神に位置する、1日1組限定のペット特化型プライベートヴィラです。
+                絶好のロケーションで、愛犬と一緒に特別なリゾート体験をお楽しみいただけます。
               </p>
               
               <div className="grid grid-cols-2 gap-4 mb-8">

@@ -11,8 +11,8 @@ export default function Footer() {
             <div className="flex items-center space-x-2 mb-4">
               <Heart className="h-8 w-8 text-blue-400" />
               <div>
-                <h3 className="text-lg font-bold">ヴィラ・ハートフル</h3>
-                <p className="text-sm text-gray-400">淡路明神</p>
+                <h3 className="text-lg font-bold">Awaji Pet & Sauna Resort</h3>
+                <p className="text-sm text-gray-400">淡路島</p>
               </div>
             </div>
             <p className="text-gray-400 text-sm leading-relaxed">
@@ -61,8 +61,8 @@ export default function Footer() {
                 <MapPin className="h-5 w-5 text-blue-400 mt-0.5" />
                 <div>
                   <p className="text-sm text-gray-400">
-                    〒656-1501<br />
-                    兵庫県淡路市明神字西濱645
+                    〒656-1557<br />
+                    兵庫県淡路市明神
                   </p>
                 </div>
               </div>
@@ -97,7 +97,7 @@ export default function Footer() {
 
         <div className="border-t border-gray-800 mt-8 pt-8 text-center">
           <p className="text-sm text-gray-400">
-            © 2024 ヴィラ・ハートフル淡路明神. All rights reserved.
+            © 2024 Awaji Pet & Sauna Resort. All rights reserved.
           </p>
         </div>
       </div>

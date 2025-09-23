@@ -109,25 +109,6 @@ export default function PetsPage() {
             </div>
           </div>
 
-          <div className="mt-8 bg-blue-50 p-6 rounded-lg border border-blue-200">
-            <h4 className="text-lg font-semibold text-gray-900 mb-3">
-              ペット同伴料金
-            </h4>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-center">
-              <div>
-                <p className="text-sm text-gray-600">小型犬（10kg未満）</p>
-                <p className="text-xl font-bold text-blue-600">¥2,000/泊</p>
-              </div>
-              <div>
-                <p className="text-sm text-gray-600">中・大型犬（10kg以上）</p>
-                <p className="text-xl font-bold text-blue-600">¥3,000/泊</p>
-              </div>
-              <div>
-                <p className="text-sm text-gray-600">猫</p>
-                <p className="text-xl font-bold text-blue-600">¥1,500/泊</p>
-              </div>
-            </div>
-          </div>
         </div>
       </section>
 

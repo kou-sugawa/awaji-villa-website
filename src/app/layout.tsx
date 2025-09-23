@@ -11,14 +11,14 @@ const notoSansJP = Noto_Sans_JP({
 });
 
 export const metadata: Metadata = {
-  title: "ヴィラ・ハートフル淡路明神 | ペット特化型プライベートヴィラ",
-  description: "愛犬と過ごす特別なリゾート体験。1日1組限定のペット特化型プライベートヴィラで、バレルサウナと200坪の天然芝をお楽しみください。兵庫県淡路島の海辺に位置する贅沢な宿泊施設。",
+  title: "Awaji Pet & Sauna Resort | ペット特化型プライベートヴィラ",
+  description: "愛犬と過ごす特別なリゾート体験。1日1組限定のペット特化型プライベートヴィラで、バレルサウナと200坪の天然芝をお楽しみください。兵庫県淡路島に位置する贅沢な宿泊施設。",
   keywords: "ペット可 別荘 淡路島, ペット特化 ヴィラ 関西, 愛犬 宿泊 淡路島, バレルサウナ ペット可 宿泊施設",
   openGraph: {
-    title: "ヴィラ・ハートフル淡路明神 | ペット特化型プライベートヴィラ",
+    title: "Awaji Pet & Sauna Resort | ペット特化型プライベートヴィラ",
     description: "愛犬と過ごす特別なリゾート体験。1日1組限定のペット特化型プライベートヴィラ",
-    url: "https://villa-heartful-awaji.com",
-    siteName: "ヴィラ・ハートフル淡路明神",
+    url: "https://awaji-pet-sauna-resort.com",
+    siteName: "Awaji Pet & Sauna Resort",
     locale: "ja_JP",
     type: "website",
   },

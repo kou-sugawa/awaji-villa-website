@@ -52,8 +52,8 @@ export default function AccessPage() {
                   <div>
                     <h3 className="text-lg font-semibold text-gray-900">住所</h3>
                     <p className="text-gray-700">
-                      〒656-1501<br />
-                      兵庫県淡路市明神字西濱645
+                      〒656-1557<br />
+                      兵庫県淡路市明神
                     </p>
                   </div>
                 </div>

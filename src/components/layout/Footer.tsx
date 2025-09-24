@@ -61,8 +61,9 @@ export default function Footer() {
                 <MapPin className="h-5 w-5 text-blue-400 mt-0.5" />
                 <div>
                   <p className="text-sm text-gray-400">
-                    〒656-1557<br />
-                    兵庫県淡路市明神
+                    〒xxx-xxxx<br />
+                    住所：兵庫県淡路市<br />
+                    電話：xxx-xxxx-xxxx
                   </p>
                 </div>
               </div>
@@ -81,21 +82,26 @@ export default function Footer() {
             <div className="space-y-3">
               <div className="flex items-center space-x-2">
                 <Phone className="h-5 w-5 text-blue-400" />
-                <span className="text-sm text-gray-400">080-1234-5678</span>
+                <span className="text-sm text-gray-400">xxx-xxxx-xxxx</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Mail className="h-5 w-5 text-blue-400" />
-                <span className="text-sm text-gray-400">info@villa-heartful.com</span>
+                <span className="text-sm text-gray-400">info@xxxx.com</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Instagram className="h-5 w-5 text-blue-400" />
-                <span className="text-sm text-gray-400">@villa_heartful_awaji</span>
+                <span className="text-sm text-gray-400">@xxxx</span>
               </div>
             </div>
           </div>
         </div>
 
         <div className="border-t border-gray-800 mt-8 pt-8 text-center">
+          <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-4 mb-4">
+            <p className="text-sm text-yellow-800 font-semibold">
+              【デモサイト】このサイトはサンプルです。実在の施設ではありません。
+            </p>
+          </div>
           <p className="text-sm text-gray-400">
             © 2024 Awaji Pet & Sauna Resort. All rights reserved.
           </p>

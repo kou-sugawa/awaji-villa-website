@@ -52,8 +52,8 @@ export default function AccessPage() {
                   <div>
                     <h3 className="text-lg font-semibold text-gray-900">住所</h3>
                     <p className="text-gray-700">
-                      〒656-1557<br />
-                      兵庫県淡路市明神
+                      〒xxx-xxxx<br />
+                      住所：兵庫県淡路市
                     </p>
                   </div>
                 </div>
@@ -63,8 +63,8 @@ export default function AccessPage() {
                   <div>
                     <h3 className="text-lg font-semibold text-gray-900">お問い合わせ</h3>
                     <p className="text-gray-700">
-                      電話: 080-1234-5678<br />
-                      メール: info@villa-heartful.com
+                      電話: xxx-xxxx-xxxx<br />
+                      メール: info@xxxx.com
                     </p>
                   </div>
                 </div>

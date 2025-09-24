@@ -84,28 +84,28 @@ export default function ContactPage() {
             <div className="bg-blue-50 p-6 rounded-lg text-center">
               <Phone className="h-12 w-12 text-blue-600 mx-auto mb-4" />
               <h3 className="text-lg font-semibold text-gray-900 mb-2">電話</h3>
-              <p className="text-gray-700 font-semibold">080-1234-5678</p>
+              <p className="text-gray-700 font-semibold">xxx-xxxx-xxxx</p>
               <p className="text-sm text-gray-600 mt-2">受付時間: 9:00〜21:00</p>
             </div>
 
             <div className="bg-green-50 p-6 rounded-lg text-center">
               <Mail className="h-12 w-12 text-green-600 mx-auto mb-4" />
               <h3 className="text-lg font-semibold text-gray-900 mb-2">メール</h3>
-              <p className="text-gray-700 font-semibold">info@villa-heartful.com</p>
+              <p className="text-gray-700 font-semibold">info@xxxx.com</p>
               <p className="text-sm text-gray-600 mt-2">24時間以内に返信</p>
             </div>
 
             <div className="bg-purple-50 p-6 rounded-lg text-center">
               <MessageCircle className="h-12 w-12 text-purple-600 mx-auto mb-4" />
               <h3 className="text-lg font-semibold text-gray-900 mb-2">LINE</h3>
-              <p className="text-gray-700 font-semibold">@villa-heartful</p>
+              <p className="text-gray-700 font-semibold">@xxxx</p>
               <p className="text-sm text-gray-600 mt-2">友達追加でお気軽に</p>
             </div>
 
             <div className="bg-yellow-50 p-6 rounded-lg text-center">
               <Clock className="h-12 w-12 text-yellow-600 mx-auto mb-4" />
               <h3 className="text-lg font-semibold text-gray-900 mb-2">緊急時</h3>
-              <p className="text-gray-700 font-semibold">080-9876-5432</p>
+              <p className="text-gray-700 font-semibold">xxx-xxxx-xxxx</p>
               <p className="text-sm text-gray-600 mt-2">宿泊中の緊急連絡先</p>
             </div>
           </div>
@@ -245,8 +245,9 @@ export default function ContactPage() {
                     <div>
                       <h4 className="font-semibold text-gray-900">住所</h4>
                       <p className="text-gray-700">
-                        〒656-1557<br />
-                        兵庫県淡路市明神
+                        〒xxx-xxxx<br />
+                        住所：兵庫県淡路市<br />
+                        電話：xxx-xxxx-xxxx
                       </p>
                     </div>
                   </div>
@@ -347,13 +348,13 @@ export default function ContactPage() {
             ペット同伴での宿泊について、どんな小さなことでもお気軽にご相談ください
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="tel:080-1234-5678">
+            <a href="tel:xxx-xxxx-xxxx">
               <Button size="lg" className="bg-yellow-500 hover:bg-yellow-600 text-black font-bold">
                 <Phone className="h-5 w-5 mr-2" />
                 今すぐ電話
               </Button>
             </a>
-            <a href="mailto:info@villa-heartful.com">
+            <a href="mailto:info@xxxx.com">
               <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-teal-600">
                 <Mail className="h-5 w-5 mr-2" />
                 メールで問い合わせ

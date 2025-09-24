@@ -1,6 +1,7 @@
+import { Heart, Sparkles, TreePine, Users, Waves } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-import { Heart, Waves, TreePine, Users, Sparkles } from "lucide-react";
+
 import Button from "@/components/ui/Button";
 
 export default function Home() {
@@ -8,10 +9,11 @@ export default function Home() {
     <div className="min-h-screen">
       {/* Hero Section */}
       <section className="relative h-screen bg-gradient-to-r from-blue-900 to-blue-700 flex items-center justify-center">
-        <div 
+        <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-30"
           style={{
-            backgroundImage: "url('https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80')"
+            backgroundImage:
+              "url('https://plus.unsplash.com/premium_photo-1682377521753-58d1fd9fa5ce?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')",
           }}
         />
         <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-4">
@@ -27,12 +29,19 @@ export default function Home() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/booking">
-              <Button size="lg" className="bg-yellow-500 hover:bg-yellow-600 text-black font-bold">
+              <Button
+                size="lg"
+                className="bg-yellow-500 hover:bg-yellow-600 text-black font-bold"
+              >
                 ご予約はこちら
               </Button>
             </Link>
             <Link href="/facility">
-              <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-blue-900">
+              <Button
+                size="lg"
+                variant="outline"
+                className="border-white text-white hover:bg-white hover:text-blue-900"
+              >
                 施設を見る
               </Button>
             </Link>
@@ -123,7 +132,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <div className="relative h-64 rounded-lg overflow-hidden">
               <Image
-                src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+                src="https://images.unsplash.com/photo-1594498653385-d5172c532c00?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 alt="愛犬と天然芝ドッグラン"
                 fill
                 className="object-cover hover:scale-105 transition-transform duration-300"
@@ -131,7 +140,7 @@ export default function Home() {
             </div>
             <div className="relative h-64 rounded-lg overflow-hidden">
               <Image
-                src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+                src="https://plus.unsplash.com/premium_photo-1687402901398-e4d6da63b7cc?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 alt="バレルサウナ"
                 fill
                 className="object-cover hover:scale-105 transition-transform duration-300"
@@ -147,7 +156,7 @@ export default function Home() {
             </div>
             <div className="relative h-64 rounded-lg overflow-hidden">
               <Image
-                src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+                src="https://plus.unsplash.com/premium_photo-1661963657305-f52dcaeef418?q=80&w=912&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 alt="ヴィラ外観"
                 fill
                 className="object-cover hover:scale-105 transition-transform duration-300"
@@ -155,7 +164,7 @@ export default function Home() {
             </div>
             <div className="relative h-64 rounded-lg overflow-hidden">
               <Image
-                src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+                src="https://images.unsplash.com/photo-1594498653385-d5172c532c00?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 alt="芝生エリア"
                 fill
                 className="object-cover hover:scale-105 transition-transform duration-300"
@@ -163,7 +172,7 @@ export default function Home() {
             </div>
             <div className="relative h-64 rounded-lg overflow-hidden">
               <Image
-                src="https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+                src="https://images.unsplash.com/photo-1593696140826-c58b021acf8b?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 alt="リビング"
                 fill
                 className="object-cover hover:scale-105 transition-transform duration-300"
@@ -193,7 +202,9 @@ export default function Home() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="bg-white p-8 rounded-lg shadow-lg">
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">平日料金</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">
+                平日料金
+              </h3>
               <div className="text-4xl font-bold text-blue-600 mb-4">
                 ¥50,000
                 <span className="text-lg text-gray-600">/泊</span>
@@ -247,12 +258,19 @@ export default function Home() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/booking">
-              <Button size="lg" className="bg-yellow-500 hover:bg-yellow-600 text-black font-bold">
+              <Button
+                size="lg"
+                className="bg-yellow-500 hover:bg-yellow-600 text-black font-bold"
+              >
                 今すぐ予約する
               </Button>
             </Link>
             <Link href="/contact">
-              <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-blue-600">
+              <Button
+                size="lg"
+                variant="outline"
+                className="border-white text-white hover:bg-white hover:text-blue-600"
+              >
                 お問い合わせ
               </Button>
             </Link>

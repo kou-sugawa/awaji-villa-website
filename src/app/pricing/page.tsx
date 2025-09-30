@@ -18,7 +18,7 @@ export default function PricingPage() {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative h-96 bg-gradient-to-r from-green-900 to-blue-700">
+      <section className="relative h-96 bg-gray-800">
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-40"
           style={{

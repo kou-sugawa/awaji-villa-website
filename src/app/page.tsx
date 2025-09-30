@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative h-screen bg-gradient-to-r from-blue-900 to-blue-700 flex items-center justify-center">
+      <section className="relative h-screen bg-gray-800 flex items-center justify-center">
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-30"
           style={{

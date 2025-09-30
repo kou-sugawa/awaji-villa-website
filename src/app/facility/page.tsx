@@ -18,7 +18,7 @@ export default function FacilityPage() {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative h-96 bg-gradient-to-r from-blue-900 to-blue-700">
+      <section className="relative h-96 bg-gray-800">
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-40"
           style={{
@@ -182,7 +182,7 @@ export default function FacilityPage() {
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             {/* バレルサウナ */}
-            <div className="bg-gradient-to-br from-orange-50 to-red-50 p-8 rounded-lg">
+            <div className="bg-orange-50 p-8 rounded-lg">
               <div className="flex items-center mb-6">
                 <Sparkles className="h-8 w-8 text-orange-600 mr-3" />
                 <h3 className="text-2xl font-bold text-gray-900">バレルサウナ</h3>
@@ -209,7 +209,7 @@ export default function FacilityPage() {
             </div>
 
             {/* 天然芝エリア */}
-            <div className="bg-gradient-to-br from-green-50 to-emerald-50 p-8 rounded-lg">
+            <div className="bg-green-50 p-8 rounded-lg">
               <div className="flex items-center mb-6">
                 <TreePine className="h-8 w-8 text-green-600 mr-3" />
                 <h3 className="text-2xl font-bold text-gray-900">200坪天然芝エリア</h3>
